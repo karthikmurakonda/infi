@@ -72,7 +72,7 @@ int main(){
         }
         no_of_days1 += date1;
         diffdays = no_of_days-no_of_days1;//days between begining day of other calendar and event day
-        int nyear = diffdays/inmonth*inyear;//year in planet's calendar
+        int nyear = diffdays/(inmonth*inyear);//year in planet's calendar
         int nmonth = (diffdays%(inyear*inmonth))/inmonth;//month 
         int ndate = diffdays%inmonth;//date
         int nweek = (diffdays+1)%inweek;//week
