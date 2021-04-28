@@ -1,6 +1,7 @@
 # MAKING OF POSTER
 ## PROBLEM STATEMENT
 Welcome to the future‼‼
+
 Now we have found **N** planets with life that have developed species that are evolved and organized.
  
 Now we have decided to conduct some interplanet events for harmony between the planets.
