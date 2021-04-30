@@ -75,12 +75,12 @@ int main(){
         int ndate = diffdays%inmonth;//date-1
         int nweek = (diffdays+1)%inweek;//week
         if (nweek==0) nweek = inweek;//changing for 0 case
-        printf("%d/%d/%d %d\n",ndate+1,nmonth+1,nyear+1,nweek);
+        printf("%d/%d/%d day-%d\n",ndate+1,nmonth+1,nyear+1,nweek);
     }
     return 0;
 }
 /*
-test cases we used to judge :
+test cases we used to judge submissions:
 1====testing for partially solved.(N=0)
 INPUT:
 0
